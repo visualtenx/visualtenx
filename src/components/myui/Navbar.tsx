@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from './Menu'
 import { CgMenuRight } from "react-icons/cg";
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                 <div className='text-white grid md:grid-cols-3 grid-cols-2 py-6 items-center justify-between'>
                     <div>
                         <figure >
-                            <img src="img/logo.jpeg" alt="visualtenx logo" className='w-14' />
+                            <Image src="/img/logo.jpeg" width={56} height={0} alt="visualtenx logo"  />
                         </figure>
                     </div>
                     <div className='md:flex justify-center hidden '>

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { Caveat } from 'next/font/google';
 import { Inter } from 'next/font/google';
+import Image from 'next/image';
 
 const caveat = Caveat({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
@@ -28,8 +29,8 @@ const Banner = () => {
                 <div>
                     <button className={`${inter.className} text-xl bg-white font-bold text-black py-3 px-20 rounded-lg`}>LET'S GET YOUR <span className='text-[#00AFF0] italic'> PROJECT</span>  STARTED!</button>
                 </div>
-                <img src="img/B3_5.png.png" className='w-[440px] absolute left-0 bottom-0' alt="" />
-                <img src="img/under.png" className='w-[440px] absolute right-0 top-12' alt="" />
+                <Image src="/img/B3_5.png.png" width={440} height={0} className=' absolute left-0 bottom-0' alt="" />
+                <Image src="/img/under.png" width={440} height={0} className=' absolute right-0 top-12' alt="" />
             </div>
         </div>
     )
