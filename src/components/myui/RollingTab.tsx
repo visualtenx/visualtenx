@@ -48,8 +48,8 @@ const RollingTab = () => {
                 </div>
 
             </Marquee>
-            <Marquee speed={300} className='flex justify-center items-center ' >
-                <div className='font-bold border-8 ms-96 border-[#00AFF0] flex items-center justify-center  w-[400px] h-[200px] bg-white rounded-[81px] text-4xl '>
+            <Marquee speed={300} className='flex justify-center items-center mt-4 ' >
+                <div className='font-bold border-8 ms-[460px] border-[#00AFF0] flex items-center justify-center  w-[400px] h-[200px] bg-white rounded-[81px] text-4xl '>
                     <h3>Branding & <br />
                         Graphic Designing </h3>
                 </div>
@@ -81,19 +81,19 @@ const RollingTab = () => {
                         Management</h3>
                 </div>
                 <div className='font-bold border-8 ms-96 border-[#00AFF0] flex items-center justify-center bg-white w-[400px] h-[200px] rounded-[81px] text-4xl '>
-                <h3>Search Engine <br /> Optimization</h3>
+                    <h3>Search Engine <br /> Optimization</h3>
 
                 </div>
                 <div className='font-bold border-8 ms-96  border-[#00AFF0] flex items-center justify-center  w-[400px] h-[200px] bg-white rounded-[81px] text-4xl '>
-                <h3>Branding & <br />
-                Graphic Designing </h3>
+                    <h3>Branding & <br />
+                        Graphic Designing </h3>
                 </div>
                 <div className='font-bold border-8 ms-96  border-[#00AFF0] flex items-center justify-center bg-white w-[400px] h-[200px] rounded-[81px] text-4xl '>
-                <h3>Social Media <br />
-                Management</h3>
+                    <h3>Social Media <br />
+                        Management</h3>
                 </div>
                 <div className='font-bold border-8 ms-96  border-[#00AFF0] flex items-center justify-center bg-white w-[400px] h-[200px] rounded-[81px] text-4xl '>
-                <h3>Search Engine <br /> Optimization</h3>
+                    <h3>Search Engine <br /> Optimization</h3>
 
                 </div>
 
