@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className='text-white grid md:grid-cols-3 grid-cols-2 py-6 items-center justify-between'>
                     <div>
                         <figure >
-                            <Image src="/img/logo.jpeg" width={56} height={0} alt="visualtenx logo"  />
+                            <Image src="/img/logo.jpeg" className='h-auto w-auto' width={0} height={0} alt="visualtenx logo"  />
                         </figure>
                     </div>
                     <div className='md:flex justify-center hidden '>

@@ -29,7 +29,7 @@ const Banner = () => {
                 <div>
                     <button className={`${inter.className} md:text-xl text-xs bg-white font-bold text-black py-3 px-20 rounded-lg`}>LET'S GET YOUR <span className='text-[#00AFF0] italic'> PROJECT</span>  STARTED!</button>
                 </div>
-                <Image src="/img/B3_5.png.png" width={440} height={0} className='md:block hidden absolute left-0 bottom-0' alt="" />
+                <Image src="/img/B3_5.png.png" width={440} height={0} className='w-[440px] h-auto md:block hidden absolute left-0 bottom-0' alt="" />
                 <Image src="/img/under.png" width={440} height={0} className='w-40 absolute right-0 top-12' alt="" />
             </div>
         </div>
