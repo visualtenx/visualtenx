@@ -48,8 +48,8 @@ const RollingTab = () => {
                 </div>
 
             </Marquee>
-            <Marquee speed={300} className='flex justify-center items-center mt-4 ' >
-                <div className='font-bold border-8 ms-[460px] border-[#00AFF0] flex items-center justify-center  w-[400px] h-[200px] bg-white rounded-[81px] text-4xl '>
+            <Marquee speed={300} delay={1.3} className='flex justify-center items-center mt-4 ' >
+                <div className='font-bold border-8 ms-96 border-[#00AFF0] flex items-center justify-center  w-[400px] h-[200px] bg-white rounded-[81px] text-4xl '>
                     <h3>Branding & <br />
                         Graphic Designing </h3>
                 </div>
