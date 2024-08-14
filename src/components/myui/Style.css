@@ -12,5 +12,11 @@
 }
 
 .scrollbarm::-webkit-scrollbar{
-     width: 2px;
+     width: 8px;
+    
 }
+.scrollbarm::-webkit-scrollbar-track {
+  background: #01AEF0;        /* color of the tracking area */
+}
+
+
